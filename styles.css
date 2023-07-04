@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  #student-form {
+    
+    margin: 20px 20px 20px  10px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  
+  #student-form input[type="text"],
+  #student-form input[type="number"],
+  #student-form input[type="email"] {
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    color: white;
+   padding: 10px;
+    /* padding: 5px;
+    margin-top: 5px; */
+  }
+  
+  #student-form button {
+  
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 400px;
+  }
+
+  #search-container input {
+    background-color: black;
+    color: white;
+    margin : 30px 10px;
+    
+    padding :10px;
+     width: 95%;
+    height: 20px;
+  }
+
+
+  #students-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #students-table th,
+  #students-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
